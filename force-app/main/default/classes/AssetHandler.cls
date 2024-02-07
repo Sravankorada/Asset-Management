@@ -2,7 +2,6 @@
 public class AssetHandler {
     
     // Method to calculate and update Next Maintenance Date for a list of Asset records
-    // Method to calculate and update Next Maintenance Date for a list of Asset records
     public static void calculateNextMaintenanceDate(List<Asset__c> assets) {
         Map<String, Integer> intervalPeriods = new Map<String, Integer>();
 		// Query for custom metadata records
